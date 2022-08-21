@@ -1,6 +1,6 @@
 # AndroidMaterialLoadingButton
 
-![Example GIF]()
+![Example GIF](https://github.com/TomTruyen/AndroidMaterialLoadingButton/blob/main/example.gif)
 
 
 A simple LoadingButton using MaterialComponents.
