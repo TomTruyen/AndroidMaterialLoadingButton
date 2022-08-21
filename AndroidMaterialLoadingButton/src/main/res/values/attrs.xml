@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Button">
+        <attr name="LoadingButton_text" format="string" />
+        <attr name="LoadingButton_textColor" format="color" />
+        <attr name="LoadingButton_textSize" format="dimension" />
+        <attr name="LoadingButton_icon" format="reference" />
+        <attr name="LoadingButton_iconGravity" format="flags">
+            <flag name="start" value="0x1"/>
+            <flag name="textStart" value="0x2"/>
+            <flag name="end" value="0x3"/>
+            <flag name="textEnd" value="0x4"/>
+            <flag name="top" value="0x5"/>
+            <flag name="textTop" value="0x6"/>
+        </attr>
+        <attr name="LoadingButton_iconSize" format="dimension" />
+        <attr name="LoadingButton_iconPadding" format="dimension" />
+        <attr name="LoadingButton_indeterminate" format="boolean" />
+        <attr name="LoadingButton_indicatorColor" format="color" />
+        <attr name="LoadingButton_indicatorSize" format="dimension" />
+        <attr name="LoadingButton_indicatorThickness" format="dimension" />
+    </declare-styleable>
+</resources>
