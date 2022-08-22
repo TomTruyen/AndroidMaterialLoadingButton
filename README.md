@@ -2,9 +2,7 @@
 
 ![Example GIF](https://github.com/TomTruyen/AndroidMaterialLoadingButton/blob/main/example.gif)
 
-
 A simple LoadingButton using MaterialComponents.
-
 
 ## Import
 
@@ -16,8 +14,8 @@ maven { url 'https://jitpack.io' }
 implementation 'com.github.TomTruyen:AndroidMaterialLoadingButton:1.0'
 ```
 
-
 ## Usage
+
 ### XML
 
 ```xml
@@ -42,6 +40,15 @@ implementation 'com.github.TomTruyen:AndroidMaterialLoadingButton:1.0'
 
 ### Kotlin
 
+### Handle click event
+
+```kotlin
+button.onClick {
+        // it = the LoadingButton
+        it.startLoading()
+}
+```
+
 #### Show loading indicator
 
 ```kotlin
@@ -61,6 +68,7 @@ button.isLoading
 ```
 
 ### Styling
+
 Basic styling can be done using the given properties. For further styling it is advised to use a custom `style`
 
 Example (Material3):
@@ -79,4 +87,3 @@ Example (Material3):
 ```
 
 for Material2 `Widget.MaterialComponents.Button` can be used as `parent`
-
